@@ -1,0 +1,42 @@
+<!DOCTYPE <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Snake</title>
+    <meta charset="utf-8" />
+    <!-- <link rel="shortcut icon" href="#" /> -->
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+        height: 100vh;
+        background: linear-gradient(
+          0deg,
+          rgb(17, 51, 161) 0%,
+          rgb(136, 34, 195) 100%
+        );
+      }
+      h1 {
+        text-align: center;
+        font-family: comic sans MS;
+        color: lightskyblue;
+      }
+      h3 {
+        /* text-align: center; */
+        font-family: comic sans MS;
+        color: lightsteelblue;
+      }
+      /* #gameCanvas { */
+      /* box-shadow: 10px 10px 20px black; */
+      /* } */
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>Snake</h1>
+      <h3>Score: <span id="score"></span></h3>
+      <canvas id="gameCanvas"></canvas>
+    </div>
+    <script src="src/Game.js" type="module"></script>
+  </body>
+</html>

@@ -17,7 +17,7 @@ let score = 0;
 let gameWin = false;
 let gameOver = false;
 const gameWinSound = new Audio("../sounds/gameWin.wav");
-const gameOverSound = new Audio("../sounds/gameOver.wav");
+const gameOverSound = new Audio("sounds/gameOver.wav");
 
 const snake = new Snake(
   tileCount / 2,

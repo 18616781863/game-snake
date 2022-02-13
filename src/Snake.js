@@ -18,7 +18,7 @@ export default class Snake {
     this.ice = new Image();
     this.ice.src = "../images/ice.png";
 
-    this.gulpSound = new Audio("../sounds/gulp.mp3");
+    this.gulpSound = new Audio("sounds/gulp.mp3");
 
     this.MovingDirection = {
       up: 0,

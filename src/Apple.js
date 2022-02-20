@@ -4,8 +4,8 @@ export default class Apple {
     this.y = y;
     this.tileSize = tileSize;
     this.tileCount = tileCount;
-    this.snow = new Image();
-    this.snow.src = "../images/snow.png";
+//     this.snow = new Image();
+//     this.snow.src = "../images/snow.png";
   }
 
   draw(ctx, pause) {

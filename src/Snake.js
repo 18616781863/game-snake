@@ -15,8 +15,8 @@ export default class Snake {
     this.tailLength = initTailLength;
     this.snakeParts = [];
 
-    this.ice = new Image();
-    this.ice.src = "../images/ice.png";
+//     this.ice = new Image();
+//     this.ice.src = "../images/ice.png";
 
     this.gulpSound = new Audio("sounds/gulp.mp3");
 
